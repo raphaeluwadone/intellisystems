@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    /* overflow: hidden; */
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/OAU.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    width: 100vw;
+}
+.main-content {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,0,0,.8);
+    width: 70vw;
+    height: 80vh;
+    margin: auto;
+    border-radius: 20px;
+    overflow: visible;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main-container {
+    height: 80%;
+    width: 60%;
+    color: yellow;
+    display: flex;
+    overflow: visible;
+    flex-direction: column;
+    /* background-color: #fff; */
+    justify-content: space-around;
+}
+.mat-num {
+    margin-top: -2em;
+
+}
+
+.mat-num > p {
+    margin-bottom: -1.5rem;
+    font-size: 1.2rem;
+}
+
+.reg {
+    max-width: 25%;
+    min-width: 15%;
+    height: 2.5rem;
+    outline: none;
+    padding-left: .7rem;
+    border-radius: .5rem;
+    margin-top: 2rem;
+    border: 2px solid black;
+    font-size: 1.2rem;
+}
+/* .name {
+    width: 90%;
+    height: 3.5em;
+    padding-left: 2em;
+    border-radius: 2.5rem;
+    margin-left: -1.03em;
+} */
+
+.name-field {
+    width: 80%;
+    height: 3rem;
+    padding-left: 1.2em;
+    border-radius: 1.2rem;
+    margin-top: 1.03em;
+    border: 1px solid black;
+    outline: none;  
+    font-size: 1.25rem; 
+}
+.name-field::placeholder{
+    font-size: 1.2rem;
+    font-style: italic;
+}
+#scores {
+    height: 67%;
+    display: flex;
+    flex-direction: column;
+    color: yellow;
+    justify-content: space-around;
+    overflow: visible;
+   
+}
+
+button{
+    width: 5.5rem;
+    padding: .5rem .5rem;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+}
+select {
+    padding: .5em 1em;
+    border-radius: 5px;
+    background-color: #fff;
+    outline: none;
+}
+
+.main-container > button:nth-child(1) {
+    background-color: blue;
+}
+
+button:nth-child(2) {
+    background-color: red;
+}
+option {
+    padding: 2rem 1rem;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+}
+
+.current > p, .prev > p {
+    color: yellow;
+    font-size: 1.4rem;
+    font-weight: 100;
+    /* margin-bottom: .1rem; */
+}
+
+.add {
+    background-color: royalblue;
+    font-weight: bolder;
+    margin: 0 auto;
+    color: white;
+}
+
+.process{
+    font-weight: bolder;
+    margin: 0 auto;
+    background-color: yellow;
+}
+
+.add:hover {
+    background-color: blue;
+    translate: scale(5);
+}
+
+.prev {
+    overflow: visible;
+}
+.current {
+    overflow: visible;
+    /* margin:  1.1rem 0; */
+}
+
+.hidden {
+    display: none;
+}
